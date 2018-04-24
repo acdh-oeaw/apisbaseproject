@@ -1,6 +1,20 @@
 Readme
 ======
 
+
+Purpose
+------------
+
+This project is based upon the APIS (branch dev_0.8_, commit_: ) project and should ease the process to set up and customize a new APIS instance. 
+
+Installation
+------------
+
+you know the drill, check out the repo, customize :code:`webpage.metadata`, create virtual env, install requirements, run makemigrations and migrate and runserver.
+
+original Readme
+======
+
 The APIS_ project intents to semantically annotate the Austrian Bibliography Lexicon (ÖBL_). To achieve this goal
 we develop(ed) this web-app. It is based on a 5 entities (person, place, institution, event, work) data model.
 All 5 entities are connected to each other. Entities, as well as relations between them, can be typed with vocabularies
@@ -38,3 +52,5 @@ All documentation and images unless otherwise noted are licensed under the terms
 .. _Stanbol: https://stanbol.apache.org/
 .. _RDFs: https://en.wikipedia.org/wiki/Resource_Description_Framework
 .. _docs: https://acdh-oeaw.github.io/apis-core/
+.. _dev_0.8: https://github.com/acdh-oeaw/apis-core/compare/dev_0.8
+.. _commit: https://github.com/acdh-oeaw/apis-core/commit/3e026ca3ec187fc14c3f6492ca407d1a7d797026
