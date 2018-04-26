@@ -15,10 +15,10 @@ Installation
 * recommended: create a virtual environment
 * install requirements :code:`pip install -r requirements.txt`
 * before you can run the inital migrations
-  * first run :code:`python manage.py delete_migrate --settings=apis.settings.<custom settings file>` to delete any existing migration files.
-  * :code:`python manage.py migrate --settings=apis.settings.<custom settings file>` this will create django's default database tables
-  * :code:`python manage.py makemigrations --settings=apis.settings.<custom settings file>` this will cretae the migration files for the apis-specific applications.
-  * :code:`python manage.py migrate --settings=apis.settings.<custom settings file>` and this will create the according data base tables
+    * first run :code:`python manage.py delete_migrate --settings=apis.settings.<custom settings file>` to delete any existing migration files.
+    * :code:`python manage.py migrate --settings=apis.settings.<custom settings file>` this will create django's default database tables
+    * :code:`python manage.py makemigrations --settings=apis.settings.<custom settings file>` this will cretae the migration files for the apis-specific applications.
+    * :code:`python manage.py migrate --settings=apis.settings.<custom settings file>` and this will create the according data base tables
 * in :code:`apis.urls` UNcomment the commentented the items in the code:`urlpatterns` list
 
 
