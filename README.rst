@@ -20,6 +20,9 @@ Installation
     * :code:`python manage.py makemigrations --settings=apis.settings.<custom settings file>` this will cretae the migration files for the apis-specific applications.
     * :code:`python manage.py migrate --settings=apis.settings.<custom settings file>` and this will create the according data base tables
 * in :code:`apis.urls` UNcomment the commentented the items in the code:`urlpatterns` list
+* start the dev-server :code:`python manage.py runserver --settings=apis.settings.<custom settings file>`
+
+
 
 
 original Readme
